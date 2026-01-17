@@ -1,0 +1,40 @@
+body {
+  background: #020617;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #020617;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logs {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.alert {
+  background: #7f1d1d;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.safe {
+  color: #22c55e;
+  font-weight: bold;
+}

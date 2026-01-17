@@ -1,0 +1,5 @@
+Jul 10 10:01:12 server sshd[1234]: Failed password for root from 192.168.1.10
+Jul 10 10:01:15 server sshd[1234]: Failed password for root from 192.168.1.10
+Jul 10 10:01:18 server sshd[1234]: Failed password for root from 192.168.1.10
+Jul 10 10:01:25 server sshd[1234]: Accepted password for user from 192.168.1.20
+Jul 10 10:02:10 server sshd[1234]: Failed password for admin from 192.168.1.30

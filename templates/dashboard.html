@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SIEM Log Analyzer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+  <h1>🛡️ SIEM Log Analyzer Dashboard</h1>
+
+  <h2>📄 Logs</h2>
+  <div class="logs">
+    {% for log in logs %}
+      <p>{{ log }}</p>
+    {% endfor %}
+  </div>
+
+  <h2>🚨 Security Alerts</h2>
+  {% if alerts %}
+    {% for alert in alerts %}
+      <div class="alert">{{ alert.message }}</div>
+    {% endfor %}
+  {% else %}
+    <p class="safe">No threats detected</p>
+  {% endif %}
+</div>
+
+</body>
+</html>
